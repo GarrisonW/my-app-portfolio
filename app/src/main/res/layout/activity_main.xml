@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity">\
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_top_margin_great"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:text="@string/text_header" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_spotify"
+        android:layout_marginTop="@dimen/button_top_margin_great"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/portfolio_button"
+        android:id="@+id/button_spotify" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_scores"
+        android:layout_marginTop="@dimen/button_top_margin_norm"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/portfolio_button"
+        android:id="@+id/button_scores" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_library"
+        android:layout_marginTop="@dimen/button_top_margin_norm"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/portfolio_button"
+        android:id="@+id/button_library" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_bigger"
+        android:layout_marginTop="@dimen/button_top_margin_norm"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/portfolio_button"
+        android:id="@+id/button_bigger" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_reader"
+        android:layout_marginTop="@dimen/button_top_margin_norm"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/portfolio_button"
+        android:id="@+id/button_reader" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_capstone"
+        android:layout_marginTop="@dimen/button_top_margin_great"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/portfolio_button_main"
+        android:id="@+id/button_capstone" />
+
+</LinearLayout>
